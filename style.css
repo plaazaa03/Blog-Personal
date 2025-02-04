@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #1e1e2f;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6b6b, #f9ca24);
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #ff6b6b;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f9ca24;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #29293d;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+section p, section ul li {
+    color: #f9f9f9;
+}
+
+section ul {
+    list-style: outside;
+    margin-left: 1.5rem;
+}
+.studies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.study-card {
+    display: flex;
+    align-items: center;
+    background: #29293d;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.study-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.study-card h3 {
+    color: #ff6b6b;
+    margin-bottom: 5px;
+}
+
+.study-card p {
+    color: #f9ca24;
+    font-size: 0.9rem;
+}
+
+
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.experience-card {
+    background: #29293d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.experience-card h3 {
+    color: #ff6b6b;
+    margin-bottom: 5px;
+}
+
+.company {
+    color: #f9ca24;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-weight: bold;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.experience-details {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-details li {
+    margin-bottom: 8px;
+}
+
+.experience-card .tech-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    background: #29293d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 1rem 0;
+}
+
+.features-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tech-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tech-icons {
+    margin-top: 10px;
+}
+
+.project-card .tech-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.project-card h4 {
+    margin-top: 10px;
+}
+
+.project-card em {
+    margin-top: 30px;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: linear-gradient(90deg, #f9ca24, #ff6b6b);
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-links a:hover {
+    color: #f9ca24;
+}
