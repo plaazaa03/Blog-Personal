@@ -154,6 +154,22 @@ section ul {
     margin: 1rem 0;
 }
 
+.github-button {
+    display: inline-block;
+    background-color: #24292e;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.github-button:hover {
+    background-color: #444d56;
+}
+
+
 .features-list {
     list-style: none;
     padding-left: 0;
@@ -209,3 +225,5 @@ footer p {
 .contact-links a:hover {
     color: #f9ca24;
 }
+
+
