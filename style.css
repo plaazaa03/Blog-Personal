@@ -15,15 +15,12 @@ body {
     background-color: #1e1e2f;
 }
 
-header, nav {
-    width: 100%;
-}
-
 header {
     background: linear-gradient(90deg, #ff6b6b, #f9ca24);
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -39,9 +36,9 @@ nav {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 100%;
     background: #ff6b6b;
     padding: 0.5rem 0;
+    width: 100%;
 }
 
 nav a {
