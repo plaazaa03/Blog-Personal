@@ -258,7 +258,7 @@ footer p {
     }
 
     .study-card, .experience-card, .project-card {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .tech-icons {
