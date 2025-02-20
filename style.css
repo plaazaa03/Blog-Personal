@@ -11,6 +11,10 @@ body {
     background-color: #1e1e2f;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background: linear-gradient(90deg, #ff6b6b, #f9ca24);
     color: #fff;
@@ -98,8 +102,6 @@ section ul {
     color: #f9ca24;
     font-size: 0.9rem;
 }
-
-
 
 .experience-container {
     display: flex;
@@ -226,4 +228,65 @@ footer p {
     color: #f9ca24;
 }
 
+/*Moviles*/
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
 
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+        display: block;
+    }
+
+    .study-card, .experience-card, .project-card {
+        padding: 1rem;
+    }
+
+    .tech-icons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .tech-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+        margin: 2rem;
+    }
+
+    .studies-container,
+    .experience-container,
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .study-card, .experience-card, .project-card {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .tech-icons {
+        justify-content: flex-start;
+    }
+}
