@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -20,6 +24,7 @@ header {
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -34,8 +39,10 @@ header p {
 nav {
     display: flex;
     justify-content: center;
+    text-align: center;
     background: #ff6b6b;
     padding: 0.5rem 0;
+    width: 100%;
 }
 
 nav a {
@@ -110,8 +117,9 @@ section ul {
 }
 
 .experience-card {
+    align-items: center;
     background: #29293d;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -146,14 +154,15 @@ section ul {
     margin-top: 10px;
     display: flex;
     gap: 20px;
+
 }
 
 .project-card {
+    align-items: center;
     background: #29293d;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    margin: 1rem 0;
 }
 
 .github-button {
