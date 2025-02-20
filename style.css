@@ -79,17 +79,13 @@ section ul {
     list-style: outside;
     margin-left: 1.5rem;
 }
-.studies-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
 .study-card {
     display: flex;
     align-items: center;
     background: #29293d;
     padding: 1rem;
+    margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -110,16 +106,11 @@ section ul {
     font-size: 0.9rem;
 }
 
-.experience-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .experience-card {
     align-items: center;
     background: #29293d;
     padding: 1rem;
+    margin: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -157,14 +148,6 @@ section ul {
 
 }
 
-.project-card {
-    align-items: center;
-    background: #29293d;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
 .github-button {
     display: inline-block;
     background-color: #24292e;
@@ -199,6 +182,15 @@ section ul {
     margin-top: 10px;
     display: flex;
     gap: 20px;
+}
+
+.project-card {
+    align-items: center;
+    background: #29293d;
+    padding: 1rem;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
